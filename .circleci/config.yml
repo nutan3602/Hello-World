@@ -22,8 +22,7 @@ jobs:
                at: my_workspace
             - run: |
                 if[[ $(cat my_workspace/echo-output)== "Trying out workspaces"]]; 
-                then
-                echo "It workload!";
+                then echo "It workload!";
 workflows:
     version: 2
     one_and_two:
